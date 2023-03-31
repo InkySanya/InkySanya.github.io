@@ -1,8 +1,8 @@
 <html lang="en" manifest="/---manifest" data-framework="typescript"><head><style id="blockly-ws-search-style">path.blocklyPath.blockly-ws-search-highlight {
-fill: black;
+fill: green;
 }
 path.blocklyPath.blockly-ws-search-highlight.blockly-ws-search-current {
-fill: grey;
+fill: green;
 }
 .blockly-ws-search-close-btn {
 background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMTQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjE0Ij48cGF0aCBkPSJNMTkgNi40MUwxNy41OSA1IDEyIDEwLjU5IDYuNDEgNSA1IDYuNDEgMTAuNTkgMTIgNSAxNy41OSA2LjQxIDE5IDEyIDEzLjQxIDE3LjU5IDE5IDE5IDE3LjU5IDEzLjQxIDEyeiIvPjxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz48L3N2Zz4=) no-repeat top left;
@@ -14,9 +14,9 @@ background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcm
 background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMTQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjE0Ij48cGF0aCBkPSJNNy40MSAxNS40MUwxMiAxMC44M2w0LjU5IDQuNThMMTggMTRsLTYtNi02IDZ6Ii8+PHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==) no-repeat top left;
 }
 .blockly-ws-search {
-background: white;
+background: green;
 border: solid lightgrey .5px;
-box-shadow: 0px 10px 20px grey;
+box-shadow: 0px 10px 20px green;
 justify-content: center;
 padding: .25em;
 position: absolute;
@@ -41,49 +41,48 @@ display: flex;
 font: 600 12pt "Monaco", "Menlo", "Ubuntu Mono", "Consolas", "source-code-pro", monospace;
 }
 .pxt-renderer.classic-theme .blocklyText {
-fill: #fff;
+
 }
 .pxt-renderer.classic-theme .blocklyNonEditableText>rect:not(.blocklyDropdownRect),
 .pxt-renderer.classic-theme .blocklyEditableText>rect:not(.blocklyDropdownRect) {
-fill: #fff;
+
 }
 .pxt-renderer.classic-theme .blocklyNonEditableText>text,
 .pxt-renderer.classic-theme .blocklyEditableText>text,
 .pxt-renderer.classic-theme .blocklyNonEditableText>g>text,
 .pxt-renderer.classic-theme .blocklyEditableText>g>text {
-fill: #575E75;
+
 }
 .pxt-renderer.classic-theme .blocklyFlyoutLabelText {
-fill: #575E75;
-fill: #fff;
+
 }
 .pxt-renderer.classic-theme .blocklyText.blocklyBubbleText {
-fill: #575E75;
+
 }
 .pxt-renderer.classic-theme .blocklyDraggable:not(.blocklyDisabled)
  .blocklyEditableText:not(.editing):hover>rect,
 .pxt-renderer.classic-theme .blocklyDraggable:not(.blocklyDisabled)
  .blocklyEditableText:not(.editing):hover>.blocklyPath {
-stroke: #fff;
+
 stroke-width: 2;
 }
 .pxt-renderer.classic-theme .blocklyHtmlInput {
 font-family: "Monaco", "Menlo", "Ubuntu Mono", "Consolas", "source-code-pro", monospace;
 font-weight: 600;
-color: #575E75;
+
 }
 .pxt-renderer.classic-theme .blocklyDropdownText {
-fill: #fff !important;
+
 }
 .pxt-renderer.classic-theme.blocklyWidgetDiv .goog-menuitem,
 .pxt-renderer.classic-theme.blocklyDropDownDiv .goog-menuitem {
 font-family: "Monaco", "Menlo", "Ubuntu Mono", "Consolas", "source-code-pro", monospace;
 }
 .pxt-renderer.classic-theme.blocklyDropDownDiv .goog-menuitem-content {
-color: #fff;
+
 }
 .pxt-renderer.classic-theme .blocklyHighlightedConnectionPath {
-stroke: #fff200;
+
 }
 .pxt-renderer.classic-theme .blocklyDisabled > .blocklyOutlinePath {
 fill: url(#blocklyDisabledPattern8584422896647224)
@@ -93,9 +92,9 @@ fill-opacity: 0.2;
 stroke: none;
 }
 .pxt-renderer.classic-theme .blocklyConnectionIndicator, .pxt-renderer.classic-theme .blocklyInputConnectionIndicator {
-fill: #ff0000;
+
 fill-opacity: 0.9;
-stroke: #ffff00;
+
 stroke-width: 3px;
 }
 .pxt-renderer.classic-theme .blocklyConnectionIndicator {
@@ -105,7 +104,7 @@ display: none;
 display: block;
 }
 .pxt-renderer.classic-theme .blocklyConnectionLine {
-stroke: #ffff00;
+
 stroke-width: 4px;
 }
 .pxt-renderer.classic-theme .blocklyConnectionLine.hidden {
@@ -113,7 +112,7 @@ display: none;
 }
 .pxt-renderer.classic-theme .blocklyFlyoutHeading .blocklyFlyoutLabelText {font-size: 1.5rem;
 }</style><style id="blockly-common-style">.blocklySvg {
-background-color: #F9F9F9;
+background-color: green;
 outline: none;
 overflow: hidden;
 position: absolute;
@@ -185,7 +184,7 @@ transition: all 0.5s ease-in-out;
 transition: transform .5s;
 }
 .blocklyTooltipDiv {
-background-color: #ffffc7;
+background-color: lime;
 border: 1px solid #ddc;
 box-shadow: 4px 4px 20px 1px rgba(0,0,0,.15);
 color: #000;
@@ -266,7 +265,6 @@ height: 48px;
 margin: 4px;
 border-radius: 4px;
 background: #547AB2;
-color: #FFFFFF;
 outline: none;
 border: 1px solid #435F91;
 cursor: pointer;
@@ -399,7 +397,7 @@ display: none;
 }
 .blocklyText {
 cursor: default;
-fill: #fff;
+
 font-family: "Helvetica Neue", "Segoe UI", Helvetica, sans-serif;
 font-size: 12pt;
 font-weight: bold;
@@ -417,10 +415,10 @@ pointer-events: none;
 .blocklyEditableText>text,
 .blocklyNonEditableText>g>text,
 .blocklyEditableText>g>text {
-fill: #575E75;
+fill: green;
 }
 .blocklyDropdownText {
-fill: #fff !important;
+
 }
 .blocklyFlyout {
 position: absolute;
@@ -455,21 +453,21 @@ opacity: .6;
 fill-opacity: .6;
 }
 .blocklyIconShape {
-fill: #000;
+
 stroke-width: 1px;
-stroke: #fff;
+
 cursor: pointer;
 }
 .blocklyIconSymbol {
-fill: #fff;
+
 }
 .blocklyMinimalBody {
 margin: 0;
 padding: 0;
-background-color: #FAF6BD;
+
 }
 .blocklyUneditableMinimalBody {
-fill: #FAF6BD;
+
 }
 .blocklyHtmlInput {
 border: none;
@@ -481,7 +479,7 @@ outline: none;
 box-sizing: border-box;
 width: 100%;
 text-align: center;
-color: #575E75;
+
 font-weight: bold;
 }
 .blocklyHtmlInput::-ms-clear {
@@ -489,16 +487,16 @@ display: none;
 }
 .blocklyMainBackground {
 stroke-width: 1;
-stroke: #c6c6c6;
+
 touch-action: none;
 }
 .blocklyMutatorBackground {
-fill: #fff;
-stroke: #ddd;
+
+
 stroke-width: 1;
 }
 .blocklyFlyoutBackground {
-fill: #444;
+
 fill-opacity: .8;
 }
 .blocklyMainWorkspaceScrollbar {
@@ -517,11 +515,11 @@ touch-action: none;
 opacity: 0;
 }
 .blocklyScrollbarHandle {
-fill: #CECDCE;
+
 }
 .blocklyScrollbarBackground:hover+.blocklyScrollbarHandle,
 .blocklyScrollbarHandle:hover {
-fill: #CECDCEHover;
+
 }
 .blocklyZoom>image {
 opacity: 1;
@@ -531,14 +529,14 @@ fill: #bbb;
 }
 .blocklyFlyout .blocklyScrollbarBackground:hover+.blocklyScrollbarHandle,
 .blocklyFlyout .blocklyScrollbarHandle:hover {
-fill: #aaa;
+
 }
 .blocklyInvalidInput {
-background: #faa;
+
 }
 .blocklyVerticalMarker {
 stroke-width: 3px;
-fill: rgba(255,255,255,.5);
+
 pointer-events: none;
 }
 .blocklyWidgetDiv .goog-option-selected .goog-menuitem-checkbox,
@@ -548,7 +546,7 @@ pointer-events: none;
 background: url(https://pxt.azureedge.net/commit/08c2bea51d9b42cff0dba0f13f77523a31a14126/blockly/media/sprites.png) no-repeat -48px -16px;
 }
 .blocklyWidgetDiv .goog-menu {
-background: #fff;
+
 border-color: transparent;
 border-style: solid;
 border-width: 1px;
@@ -582,7 +580,7 @@ z-index: 20000;
 }
 .blocklyWidgetDiv .goog-menuitem,
 .blocklyDropDownDiv .goog-menuitem {
-color: #000;
+
 font: normal 13px "Helvetica Neue", Helvetica, sans-serif;
 list-style: none;
 margin: 0;
@@ -604,10 +602,10 @@ font-family: Arial, sans-serif;
 font-size: 13px;
 }
 .blocklyWidgetDiv .goog-menuitem-content {
-color: #000;
+
 }
 .blocklyDropDownDiv .goog-menuitem-content {
-color: #000;
+
 }
 .blocklyWidgetDiv .goog-menuitem-disabled,
 .blocklyDropDownDiv .goog-menuitem-disabled {
@@ -615,7 +613,7 @@ cursor: inherit;
 }
 .blocklyWidgetDiv .goog-menuitem-disabled .goog-menuitem-content,
 .blocklyDropDownDiv .goog-menuitem-disabled .goog-menuitem-content {
-color: #ccc !important;
+
 }
 .blocklyWidgetDiv .goog-menuitem-disabled .goog-menuitem-icon,
 .blocklyDropDownDiv .goog-menuitem-disabled .goog-menuitem-icon {
@@ -624,7 +622,7 @@ filter: alpha(opacity=30);
 }
 .blocklyWidgetDiv .goog-menuitem-highlight ,
 .blocklyDropDownDiv .goog-menuitem-highlight {
-background-color: rgba(0,0,0,.1);
+background-color: rgb(0,230,0);
 }
 .blocklyWidgetDiv .goog-menuitem-checkbox,
 .blocklyWidgetDiv .goog-menuitem-icon,
@@ -684,7 +682,7 @@ border-radius: 2px;
 padding: 0 !important;
 }
 .blocklyDropDownNumPad {
-background-color: #547AB2;
+
 }
 .blocklyWidgetDiv .blocklyDropdownMenu .goog-menuitem,
 .blocklyDropDownDiv .blocklyDropdownMenu .goog-menuitem,
@@ -696,7 +694,7 @@ padding-left: 5px;
 padding-right: 28px;
 }
 .blocklyWidgetDiv .blocklyMenu {
-background: #fff;
+background: green;
 border: 1px solid transparent;
 box-shadow: 0 0 3px 1px rgba(0,0,0,.3);
 font: normal 13px Arial, sans-serif;
@@ -730,7 +728,7 @@ z-index: 20000;
 }
 .blocklyMenuItem {
 border: none;
-color: #000;
+
 cursor: pointer;
 list-style: none;
 margin: 0;
@@ -739,11 +737,11 @@ padding: 6px 15px;
 white-space: nowrap;
 }
 .blocklyMenuItemDisabled {
-color: #ccc;
+
 cursor: inherit;
 }
 .blocklyMenuItemHighlight {
-background-color: rgba(0,0,0,.1);
+
 }
 .blocklyMenuItemCheckbox {
 height: 16px;
@@ -775,7 +773,7 @@ width: 26px;
 height: 26px;
 top: -1px;
 position: absolute;
-background-color: white;
+background-color: green;
 border-radius: 100%;
 -webkit-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.15);
 -moz-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.15);
@@ -822,35 +820,35 @@ overflow: visible;
 font-weight: bold;
 }
 .field-text-quote {
-fill: #a31515 !important;
+
 }
 .blocklyCommentTextarea {
-background-color: #FAF6BD;
+
 border: 0;
 outline: 0;
 margin: 0;
 padding: 3px;
 resize: none;
 display: block;
-color: #575E75;
+
 overflow: hidden;
 font-size: 12pt;
 line-height: 22px;
 }
 .blocklyFlyoutButton {
-fill: #F4F4F4;
+
 }
 .blocklyFlyoutButtonBackground {
-stroke: #fff;
+
 }
 .blocklyFlyoutButton .blocklyText {
-fill: #575E75;
+
 }
 .blocklyFlyoutButtonShadow {
-fill: none;
+
 }
 .blocklyFlyoutButton:hover {
-fill: #EAEAEA;
+
 cursor: pointer;
 }
 .blocklyFlyoutLabel {
@@ -862,7 +860,6 @@ opacity: 0;
 .blocklyFlyoutLabelText {
 font-family: "Helvetica Neue", "Segoe UI", Helvetica, sans-serif;
 font-size: 14pt;
-fill: #575E75;
 font-weight: bold;
 }
 .blocklyTreeRow:not(.blocklyTreeSelected):hover {
@@ -1243,19 +1240,19 @@ overflow-y: scroll;
                     border-color: #039968;
                 }span.docs.inlineblock.images {
                     background-color: #a5b1c2;
-                    border-color: #959faf;
+                    border-color: green;
                 }span.docs.inlineblock.functions {
-                    background-color: #1446A0;
-                    border-color: #123f90;
+                    background-color: green;
+                    border-color: green;
                 }span.docs.inlineblock.arrays {
-                    background-color: #FF8F08;
-                    border-color: #e68107;
+                    background-color: green;
+                    border-color: green;
                 }span.docs.inlineblock.text {
-                    background-color: #F5D547;
-                    border-color: #ddc040;
+                    background-color: green;
+                    border-color: green;
                 }span.docs.inlineblock.console {
-                    background-color: #002050;
-                    border-color: #001d48;
+                    background-color: green;
+                    border-color: green;
                 }</style><div id="blocklySearchArea"><div id="blocklySearchInput" class="ui fluid icon input" role="search"><input type="text" placeholder="Search..." id="blocklySearchInputField" class="blocklySearchInputField" aria-label="Search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"><i class="search icon" role="presentation" aria-hidden="true"></i><div class="accessible-hidden" id="blocklySearchLabel" aria-live="polite">  </div></div></div><div class="blocklyTreeRoot"><div role="tree"><div role="treeitem"><div role="button" class="blocklyTreeRow" tabindex="0" data-ns="sprites" aria-label="Toggle category Sprites" aria-expanded="false" style="padding-left: 0px; color: rgb(75, 123, 236); border-left: 8px solid rgb(75, 123, 236);"><span class="blocklyTreeIcon" role="presentation"></span><span class="blocklyTreeIcon blocklyTreeIconsprites " role="presentation" style="display: inline-block;"></span><span class="blocklyTreeLabel">Sprites</span></div><div></div></div><div role="treeitem"><div role="button" class="blocklyTreeRow" tabindex="0" data-ns="controller" aria-label="Toggle category Controller" aria-expanded="false" style="padding-left: 0px; color: rgb(213, 67, 34); border-left: 8px solid rgb(213, 67, 34);"><span class="blocklyTreeIcon" role="presentation"></span><span class="blocklyTreeIcon blocklyTreeIconcontroller " role="presentation" style="display: inline-block;"></span><span class="blocklyTreeLabel">Controller</span></div><div></div></div><div role="treeitem"><div role="button" class="blocklyTreeRow" tabindex="0" data-ns="game" aria-label="Toggle category Game" aria-expanded="false" style="padding-left: 0px; color: rgb(136, 84, 208); border-left: 8px solid rgb(136, 84, 208);"><span class="blocklyTreeIcon" role="presentation"></span><span class="blocklyTreeIcon blocklyTreeIcongame " role="presentation" style="display: inline-block;"></span><span class="blocklyTreeLabel">Game</span></div><div></div></div><div role="treeitem"><div role="button" class="blocklyTreeRow" tabindex="0" data-ns="music" aria-label="Toggle category Music" aria-expanded="false" style="padding-left: 0px; color: rgb(227, 15, 192); border-left: 8px solid rgb(227, 15, 192);"><span class="blocklyTreeIcon" role="presentation"></span><span class="blocklyTreeIcon blocklyTreeIconmusic " role="presentation" style="display: inline-block;"></span><span class="blocklyTreeLabel">Music</span></div><div></div></div><div role="treeitem"><div role="button" class="blocklyTreeRow" tabindex="0" data-ns="scene" aria-label="Toggle category Scene" aria-expanded="false" style="padding-left: 0px; color: rgb(75, 101, 132); border-left: 8px solid rgb(75, 101, 132);"><span class="blocklyTreeIcon" role="presentation"></span><span class="blocklyTreeIcon blocklyTreeIconscene " role="presentation" style="display: inline-block;"></span><span class="blocklyTreeLabel">Scene</span></div><div></div></div><div role="treeitem"><div role="button" class="blocklyTreeRow" tabindex="0" data-ns="info" aria-label="Toggle category Info" aria-expanded="false" style="padding-left: 0px; color: rgb(207, 106, 135); border-left: 8px solid rgb(207, 106, 135);"><span class="blocklyTreeIcon" role="presentation"></span><span class="blocklyTreeIcon blocklyTreeIconinfo " role="presentation" style="display: inline-block;"></span><span class="blocklyTreeLabel">Info</span></div><div></div></div><div role="treeitem"><div role="button" class="blocklyTreeRow" tabindex="0" data-ns="loops" aria-label="Toggle category Loops" aria-expanded="false" style="padding-left: 0px; color: rgb(32, 191, 107); border-left: 8px solid rgb(32, 191, 107);"><span class="blocklyTreeIcon" role="presentation"></span><span class="blocklyTreeIcon blocklyTreeIconloops " role="presentation" style="display: inline-block;"></span><span class="blocklyTreeLabel">Loops</span></div><div></div></div><div role="treeitem"><div role="button" class="blocklyTreeRow" tabindex="0" data-ns="logic" aria-label="Toggle category Logic" aria-expanded="false" style="padding-left: 0px; color: rgb(69, 170, 242); border-left: 8px solid rgb(69, 170, 242);"><span class="blocklyTreeIcon" role="presentation"></span><span class="blocklyTreeIcon blocklyTreeIconlogic " role="presentation" style="display: inline-block;"></span><span class="blocklyTreeLabel">Logic</span></div><div></div></div><div role="treeitem"><div role="button" class="blocklyTreeRow" tabindex="0" data-ns="variables" aria-label="Toggle category Variables" aria-expanded="false" style="padding-left: 0px; color: rgb(236, 59, 89); border-left: 8px solid rgb(236, 59, 89);"><span class="blocklyTreeIcon" role="presentation"></span><span class="blocklyTreeIcon blocklyTreeIconvariables " role="presentation" style="display: inline-block;"></span><span class="blocklyTreeLabel">Variables</span></div><div></div></div><div role="treeitem"><div role="button" class="blocklyTreeRow" tabindex="0" data-ns="Math" aria-label="Toggle category Math" aria-expanded="false" style="padding-left: 0px; color: rgb(165, 94, 234); border-left: 8px solid rgb(165, 94, 234);"><span class="blocklyTreeIcon" role="presentation"></span><span class="blocklyTreeIcon blocklyTreeIconmath " role="presentation" style="display: inline-block;"></span><span class="blocklyTreeLabel">Math</span></div><div></div></div><div role="treeitem"><div role="button" class="blocklyTreeRow" tabindex="0" data-ns="addpackage" aria-label="Toggle category Extensions" aria-expanded="false" style="padding-left: 0px; color: rgb(113, 113, 113); border-left: 8px solid rgb(113, 113, 113);"><span class="blocklyTreeIcon" role="presentation"></span><span class="blocklyTreeIcon blocklyTreeIconaddpackage " role="presentation" style="display: inline-block;"></span><span class="blocklyTreeLabel">Extensions</span></div><div></div></div><div role="treeitem"><div class="blocklyTreeSeparator"><span role="presentation" style="display: inline-block;"></span></div></div><div role="treeitem"><div role="button" class="blocklyTreeRow" tabindex="0" data-ns="advancedcollapsed" aria-label="Toggle category Advanced" style="padding-left: 0px; color: rgb(60, 60, 60); border-left: 8px solid rgb(60, 60, 60);"><span class="blocklyTreeIcon" role="presentation"></span><span class="blocklyTreeIcon blocklyTreeIcon " role="presentation" style="display: inline-block;"></span><span class="blocklyTreeLabel">Advanced</span></div><div></div></div></div></div></div><div id="debuggerToolbox"><div></div></div></div></div><div class="blockly-ws-search" style="display: none; right: 0px; top: 0px;"><div class="blockly-ws-search-container"><div class="blockly-ws-search-content"><div class="blockly-ws-search-input"><input type="text" placeholder="Search"></div><div class="blockly-ws-search-actions"><button class="blockly-ws-search-next-btn" aria-label="Find next"></button><button class="blockly-ws-search-previous-btn" aria-label="Find previous"></button></div></div><button class="blockly-ws-search-close-btn" aria-label="Close search bar"></button></div></div><svg xmlns="http://www.w3.org/2000/svg" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="blocklySvg" tabindex="0" width="693px" height="650px" style="display: block;"><defs><pattern id="blocklyGridPattern06013214583774418" patternUnits="userSpaceOnUse" width="18" height="18" x="190" y="10"><line stroke="rgba(107, 79, 118, 0.10)" stroke-width="0.9" x1="-35.550000000000004" y1="9.450000000000001" x2="54.45" y2="9.450000000000001"></line><line stroke="rgba(107, 79, 118, 0.10)" stroke-width="0.9" x1="9.450000000000001" y1="-35.550000000000004" x2="9.450000000000001" y2="54.45"></line></pattern></defs><g class="blocklyWorkspace"><rect height="100%" width="100%" class="blocklyMainBackground" style="fill: url(&quot;#blocklyGridPattern06013214583774418&quot;);"></rect><g class="blocklyBlockCanvas" transform="translate(190,10) scale(0.9)"><g class="blocklyCursor"><g width="80" height="5"><rect width="80" height="5" style="display: none"><animate attributeType="XML" attributeName="fill" dur="1s" values="#ffa200;transparent;transparent;" repeatCount="indefinite"></animate></rect><rect class="blocklyVerticalMarker" rx="10" ry="10" style="display: none"></rect><path transform="" style="display: none"><animate attributeType="XML" attributeName="fill" dur="1s" values="#ffa200;transparent;transparent;" repeatCount="indefinite"></animate></path><path transform="" style="display: none" fill="none" stroke-width="4"><animate attributeType="XML" attributeName="stroke" dur="1s" values="#ffa200;transparent;transparent;" repeatCount="indefinite"></animate></path><circle r="5" style="display: none" stroke-width="4"><animate attributeType="XML" attributeName="fill" dur="1s" values="#ffa200;transparent;transparent;" repeatCount="indefinite"></animate></circle></g></g><g data-id="9^E1Wh5nUQw4IA:HsDRQ" class="blocklyDraggable" transform="translate(0,0)"><path class="blocklyPath blocklyBlockBackground" stroke="#188f50" fill="#20bf6b" d=" m 0,0  m 0,4 a 4 4 0 0,1 4,-4  h 152 a 4 4 0 0,1 4,4  v 4  V 8  V 40  V 44 a 4 4 0 0,1 -4,4  H 64  c -2,0  -3,1  -4,2  l -4,4  c -1,1  -2,2  -4,2  h -12  c -2,0  -3,-1  -4,-2  l -4,-4  c -1,-1  -2,-2  -4,-2  h -8 a 4 4 0 0,0 -4,4  v 16 a 4 4 0 0,0 4,4  h 8  c 2,0  3,1  4,2  l 4,4  c 1,1  2,2  4,2  h 12  c 2,0  3,-1  4,-2  l 4,-4  c 1,-1  2,-2  4,-2  H 156 a 4 4 0 0,1 4,4  V 80  V 100 a 4 4 0 0,1 -4,4  h -152 a 4 4 0 0,1 -4,-4 z
 "></path><g transform="translate(8,16)"><text class="blocklyText" dominant-baseline="central" x="0" y="8">on&nbsp;start</text></g></g></g><g class="blocklyBubbleCanvas" transform="translate(190,10) scale(0.9)"></g><rect height="15" width="15" class="blocklyScrollbarBackground" x="677.5" y="634.5"></rect><defs></defs><defs></defs><defs><filter id="blocklyHighlightGlowFilterundefined" height="160%" width="180%" y="-30%" x="-40%"><feGaussianBlur in="SourceGraphic" stdDeviation="1.1"></feGaussianBlur><feComponentTransfer result="outBlur"><feFuncA type="table" tableValues="0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"></feFuncA></feComponentTransfer><feFlood flood-color="#FFF200" flood-opacity="1" result="outColor"></feFlood><feComposite in="outColor" in2="outBlur" operator="in" result="outGlow"></feComposite></filter><filter id="blocklyHighlightWarningFilterundefined" height="160%" width="180%" y="-30%" x="-40%"><feGaussianBlur in="SourceGraphic" stdDeviation="1.1"></feGaussianBlur><feComponentTransfer result="outBlur"><feFuncA type="table" tableValues="0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"></feFuncA></feComponentTransfer><feFlood flood-color="#E53D00" flood-opacity="1" result="outColor"></feFlood><feComposite in="outColor" in2="outBlur" operator="in" result="outGlow"></feComposite></filter><image id="blocklyDropdownArrowSvgundefined" height="12px" width="12px" xlink:href="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMi43MSIgaGVpZ2h0PSI4Ljc5IiB2aWV3Qm94PSIwIDAgMTIuNzEgOC43OSI+PHRpdGxlPmRyb3Bkb3duLWFycm93PC90aXRsZT48ZyBvcGFjaXR5PSIwLjEiPjxwYXRoIGQ9Ik0xMi43MSwyLjQ0QTIuNDEsMi40MSwwLDAsMSwxMiw0LjE2TDguMDgsOC4wOGEyLjQ1LDIuNDUsMCwwLDEtMy40NSwwTDAuNzIsNC4xNkEyLjQyLDIuNDIsMCwwLDEsMCwyLjQ0LDIuNDgsMi40OCwwLDAsMSwuNzEuNzFDMSwwLjQ3LDEuNDMsMCw2LjM2LDBTMTEuNzUsMC40NiwxMiwuNzFBMi40NCwyLjQ0LDAsMCwxLDEyLjcxLDIuNDRaIiBmaWxsPSIjMjMxZjIwIi8+PC9nPjxwYXRoIGQ9Ik02LjM2LDcuNzlhMS40MywxLjQzLDAsMCwxLTEtLjQyTDEuNDIsMy40NWExLjQ0LDEuNDQsMCwwLDEsMC0yYzAuNTYtLjU2LDkuMzEtMC41Niw5Ljg3LDBhMS40NCwxLjQ0LDAsMCwxLDAsMkw3LjM3LDcuMzdBMS40MywxLjQzLDAsMCwxLDYuMzYsNy43OVoiIGZpbGw9IiNmZmYiLz48L3N2Zz4="></image></defs><defs><filter id="blocklyEmbossFilter8584422896647224"><feGaussianBlur in="SourceAlpha" stdDeviation="1" result="blur"></feGaussianBlur><feSpecularLighting in="blur" surfaceScale="1" specularConstant="0.5" specularExponent="10" lighting-color="white" result="specOut"><fePointLight x="-5000" y="-10000" z="20000"></fePointLight></feSpecularLighting><feComposite in="specOut" in2="SourceAlpha" operator="in" result="specOut"></feComposite><feComposite in="SourceGraphic" in2="specOut" operator="arithmetic" k1="0" k2="1" k3="1" k4="0"></feComposite></filter><pattern id="blocklyDisabledPattern8584422896647224" patternUnits="userSpaceOnUse" width="10" height="10"><rect width="10" height="10" fill="#aaa"></rect><path d="M 0 0 L 10 10 M 10 0 L 0 10" stroke="#cc0"></path></pattern><filter id="blocklyDebugFilter8584422896647224" height="160%" width="180%" y="-30%" x="-40%"><feComponentTransfer result="outBlur"><feFuncA type="table" tableValues="0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"></feFuncA></feComponentTransfer><feFlood flood-color="#ff0000" flood-opacity="0.5" result="outColor"></feFlood><feComposite in="outColor" in2="outBlur" operator="in" result="outGlow"></feComposite></filter></defs><defs><filter id="blocklySelectedGlowFilter8584422896647224" height="160%" width="180%" y="-30%" x="-40%"><feGaussianBlur in="SourceGraphic" stdDeviation="0.5"></feGaussianBlur><feComponentTransfer result="outBlur"><feFuncA type="table" tableValues="0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"></feFuncA></feComponentTransfer><feFlood flood-color="#fff200" flood-opacity="1" result="outColor"></feFlood><feComposite in="outColor" in2="outBlur" operator="in" result="outGlow"></feComposite></filter><filter id="blocklyReplacementGlowFilter8584422896647224" height="160%" width="180%" y="-30%" x="-40%"><feGaussianBlur in="SourceGraphic" stdDeviation="2"></feGaussianBlur><feComponentTransfer result="outBlur"><feFuncA type="table" tableValues="0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"></feFuncA></feComponentTransfer><feFlood flood-color="#fff200" flood-opacity="1" result="outColor"></feFlood><feComposite in="outColor" in2="outBlur" operator="in" result="outGlow"></feComposite><feComposite in="SourceGraphic" in2="outGlow" operator="over"></feComposite></filter></defs><defs><filter id="blocklyHighlightGlowFilterundefined" height="160%" width="180%" y="-30%" x="-40%"><feGaussianBlur in="SourceGraphic" stdDeviation="1.1"></feGaussianBlur><feComponentTransfer result="outBlur"><feFuncA type="table" tableValues="0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"></feFuncA></feComponentTransfer><feFlood flood-color="#FFF200" flood-opacity="1" result="outColor"></feFlood><feComposite in="outColor" in2="outBlur" operator="in" result="outGlow"></feComposite></filter><filter id="blocklyHighlightWarningFilterundefined" height="160%" width="180%" y="-30%" x="-40%"><feGaussianBlur in="SourceGraphic" stdDeviation="1.1"></feGaussianBlur><feComponentTransfer result="outBlur"><feFuncA type="table" tableValues="0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"></feFuncA></feComponentTransfer><feFlood flood-color="#E53D00" flood-opacity="1" result="outColor"></feFlood><feComposite in="outColor" in2="outBlur" operator="in" result="outGlow"></feComposite></filter><image id="blocklyDropdownArrowSvgundefined" height="12px" width="12px" xlink:href="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMi43MSIgaGVpZ2h0PSI4Ljc5IiB2aWV3Qm94PSIwIDAgMTIuNzEgOC43OSI+PHRpdGxlPmRyb3Bkb3duLWFycm93PC90aXRsZT48ZyBvcGFjaXR5PSIwLjEiPjxwYXRoIGQ9Ik0xMi43MSwyLjQ0QTIuNDEsMi40MSwwLDAsMSwxMiw0LjE2TDguMDgsOC4wOGEyLjQ1LDIuNDUsMCwwLDEtMy40NSwwTDAuNzIsNC4xNkEyLjQyLDIuNDIsMCwwLDEsMCwyLjQ0LDIuNDgsMi40OCwwLDAsMSwuNzEuNzFDMSwwLjQ3LDEuNDMsMCw2LjM2LDBTMTEuNzUsMC40NiwxMiwuNzFBMi40NCwyLjQ0LDAsMCwxLDEyLjcxLDIuNDRaIiBmaWxsPSIjMjMxZjIwIi8+PC9nPjxwYXRoIGQ9Ik02LjM2LDcuNzlhMS40MywxLjQzLDAsMCwxLTEtLjQyTDEuNDIsMy40NWExLjQ0LDEuNDQsMCwwLDEsMC0yYzAuNTYtLjU2LDkuMzEtMC41Niw5Ljg3LDBhMS40NCwxLjQ0LDAsMCwxLDAsMkw3LjM3LDcuMzdBMS40MywxLjQzLDAsMCwxLDYuMzYsNy43OVoiIGZpbGw9IiNmZmYiLz48L3N2Zz4="></image></defs></g></svg><svg class="blocklyScrollbarVertical blocklyMainWorkspaceScrollbar" width="15" height="634" style="transform: translate(677.5px, 0.5px);"><g><rect class="blocklyScrollbarBackground" width="15" height="634"></rect><rect class="blocklyScrollbarHandle" rx="5" ry="5" width="10" x="2.5" height="341.59482758620686" y="287.1498673740053"></rect></g></svg><svg class="blocklyScrollbarHorizontal blocklyMainWorkspaceScrollbar" height="15" width="497" style="transform: translate(180.5px, 634.5px);"><g><rect class="blocklyScrollbarBackground" height="15" width="497"></rect><rect class="blocklyScrollbarHandle" rx="5" ry="5" height="10" y="2.5" width="289.07142857142856" x="202.2936507936508"></rect></g></svg><svg class="blocklyFlyout" style="display: none"><path class="blocklyFlyoutBackground"></path><g class="blocklyWorkspace"><g class="blocklyBlockCanvas"><g class="blocklyCursor"><g width="80" height="5"><rect width="80" height="5" style="display: none"><animate attributeType="XML" attributeName="fill" dur="1s" values="#ffa200;transparent;transparent;" repeatCount="indefinite"></animate></rect><rect class="blocklyVerticalMarker" rx="10" ry="10" style="display: none"></rect><path transform="" style="display: none"><animate attributeType="XML" attributeName="fill" dur="1s" values="#ffa200;transparent;transparent;" repeatCount="indefinite"></animate></path><path transform="" style="display: none" fill="none" stroke-width="4"><animate attributeType="XML" attributeName="stroke" dur="1s" values="#ffa200;transparent;transparent;" repeatCount="indefinite"></animate></path><circle r="5" style="display: none" stroke-width="4"><animate attributeType="XML" attributeName="fill" dur="1s" values="#ffa200;transparent;transparent;" repeatCount="indefinite"></animate></circle></g></g></g><g class="blocklyBubbleCanvas"></g><defs><filter id="blocklyEmbossFilter2432552898795899"><feGaussianBlur in="SourceAlpha" stdDeviation="1" result="blur"></feGaussianBlur><feSpecularLighting in="blur" surfaceScale="1" specularConstant="0.5" specularExponent="10" lighting-color="white" result="specOut"><fePointLight x="-5000" y="-10000" z="20000"></fePointLight></feSpecularLighting><feComposite in="specOut" in2="SourceAlpha" operator="in" result="specOut"></feComposite><feComposite in="SourceGraphic" in2="specOut" operator="arithmetic" k1="0" k2="1" k3="1" k4="0"></feComposite></filter><pattern id="blocklyDisabledPattern2432552898795899" patternUnits="userSpaceOnUse" width="10" height="10"><rect width="10" height="10" fill="#aaa"></rect><path d="M 0 0 L 10 10 M 10 0 L 0 10" stroke="#cc0"></path></pattern><filter id="blocklyDebugFilter2432552898795899" height="160%" width="180%" y="-30%" x="-40%"><feComponentTransfer result="outBlur"><feFuncA type="table" tableValues="0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"></feFuncA></feComponentTransfer><feFlood flood-color="#ff0000" flood-opacity="0.5" result="outColor"></feFlood><feComposite in="outColor" in2="outBlur" operator="in" result="outGlow"></feComposite></filter></defs><defs><filter id="blocklySelectedGlowFilter2432552898795899" height="160%" width="180%" y="-30%" x="-40%"><feGaussianBlur in="SourceGraphic" stdDeviation="0.5"></feGaussianBlur><feComponentTransfer result="outBlur"><feFuncA type="table" tableValues="0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"></feFuncA></feComponentTransfer><feFlood flood-color="#fff200" flood-opacity="1" result="outColor"></feFlood><feComposite in="outColor" in2="outBlur" operator="in" result="outGlow"></feComposite></filter><filter id="blocklyReplacementGlowFilter2432552898795899" height="160%" width="180%" y="-30%" x="-40%"><feGaussianBlur in="SourceGraphic" stdDeviation="2"></feGaussianBlur><feComponentTransfer result="outBlur"><feFuncA type="table" tableValues="0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"></feFuncA></feComponentTransfer><feFlood flood-color="#fff200" flood-opacity="1" result="outColor"></feFlood><feComposite in="outColor" in2="outBlur" operator="in" result="outGlow"></feComposite><feComposite in="SourceGraphic" in2="outGlow" operator="over"></feComposite></filter></defs><defs><filter id="blocklyHighlightGlowFilterundefined" height="160%" width="180%" y="-30%" x="-40%"><feGaussianBlur in="SourceGraphic" stdDeviation="1.1"></feGaussianBlur><feComponentTransfer result="outBlur"><feFuncA type="table" tableValues="0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"></feFuncA></feComponentTransfer><feFlood flood-color="#FFF200" flood-opacity="1" result="outColor"></feFlood><feComposite in="outColor" in2="outBlur" operator="in" result="outGlow"></feComposite></filter><filter id="blocklyHighlightWarningFilterundefined" height="160%" width="180%" y="-30%" x="-40%"><feGaussianBlur in="SourceGraphic" stdDeviation="1.1"></feGaussianBlur><feComponentTransfer result="outBlur"><feFuncA type="table" tableValues="0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"></feFuncA></feComponentTransfer><feFlood flood-color="#E53D00" flood-opacity="1" result="outColor"></feFlood><feComposite in="outColor" in2="outBlur" operator="in" result="outGlow"></feComposite></filter><image id="blocklyDropdownArrowSvgundefined" height="12px" width="12px" xlink:href="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMi43MSIgaGVpZ2h0PSI4Ljc5IiB2aWV3Qm94PSIwIDAgMTIuNzEgOC43OSI+PHRpdGxlPmRyb3Bkb3duLWFycm93PC90aXRsZT48ZyBvcGFjaXR5PSIwLjEiPjxwYXRoIGQ9Ik0xMi43MSwyLjQ0QTIuNDEsMi40MSwwLDAsMSwxMiw0LjE2TDguMDgsOC4wOGEyLjQ1LDIuNDUsMCwwLDEtMy40NSwwTDAuNzIsNC4xNkEyLjQyLDIuNDIsMCwwLDEsMCwyLjQ0LDIuNDgsMi40OCwwLDAsMSwuNzEuNzFDMSwwLjQ3LDEuNDMsMCw2LjM2LDBTMTEuNzUsMC40NiwxMiwuNzFBMi40NCwyLjQ0LDAsMCwxLDEyLjcxLDIuNDRaIiBmaWxsPSIjMjMxZjIwIi8+PC9nPjxwYXRoIGQ9Ik02LjM2LDcuNzlhMS40MywxLjQzLDAsMCwxLTEtLjQyTDEuNDIsMy40NWExLjQ0LDEuNDQsMCwwLDEsMC0yYzAuNTYtLjU2LDkuMzEtMC41Niw5Ljg3LDBhMS40NCwxLjQ0LDAsMCwxLDAsMkw3LjM3LDcuMzdBMS40MywxLjQzLDAsMCwxLDYuMzYsNy43OVoiIGZpbGw9IiNmZmYiLz48L3N2Zz4="></image></defs></g></svg><svg class="blocklyScrollbarVertical blocklyFlyoutScrollbar" width="15"><g><rect class="blocklyScrollbarBackground" width="15"></rect><rect class="blocklyScrollbarHandle" rx="5" ry="5" width="10" x="2.5"></rect></g></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="blocklyBlockDragSurface"><g transform="translate(190,10) scale(0.9)"></g></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="blocklyWsDragSurface blocklyOverflowVisible"></svg></div></div><div id="blocklyTrashIcon" style="opacity: 0; display: none;"><i class="trash icon" aria-hidden="true"></i></div></div></div></div><div class="full-abs" id="serialEditor" style="display: none;"><div id="serialArea" class="no-toggle hide-view-latest"><div id="serialHeader" class="ui serialHeader"><div class="leftHeaderWrapper"><div class="leftHeader"><button class="ui button   " title="Go back" tabindex="0"><i class="icon arrow left " aria-hidden="true" role="presentation"></i><span class="ui text landscape only">Go back</span></button><div class="common-editor-toggle-outer"><div id="serial-editor-toggle" class="common-toggle-accessibility" role="tablist"><button id="serial-editor-toggle-selected" class="common-button selected" title="Console" role="tab" tabindex="0" aria-selected="true" data-isfocusable="true"><span class="common-button-flex"><span class="common-button-label">Console</span></span></button><button class="common-button" title="Data Log" role="tab" tabindex="-1" data-isfocusable="true"><span class="common-button-flex"><span class="common-button-label">Data Log</span></span></button></div><div id="serial-editor-toggle" class="common-editor-toggle slim tablet-compact" role="tablist" aria-hidden="true"><div class="common-editor-toggle-item selected"><button class="common-button" title="Console" role="tab" tabindex="-1" aria-hidden="true"><span class="common-button-flex"><i class="fas fa-terminal" aria-hidden="true"></i><span class="common-button-label">Console</span></span></button></div><div class="common-editor-toggle-item"><button class="common-button" title="Data Log" role="tab" tabindex="-1" aria-hidden="true"><span class="common-button-flex"><i class="fas fa-table" aria-hidden="true"></i><span class="common-button-label">Data Log</span></span></button></div><div class="common-editor-toggle-handle" aria-hidden="true"></div></div></div></div></div><div class="rightHeader"><button class="ui button   ui icon button editorExport csv-hide" title="Save raw text" tabindex="0" aria-label="Save raw text"><i class="icon copy " aria-hidden="true" role="presentation"></i></button><button class="ui button   ui icon blue button editorExport" title="Export data" tabindex="0" aria-label="Export data"><i class="icon download " aria-hidden="true" role="presentation"></i></button><button class="ui button   ui left floated icon button red circular toggleRecord csv-hide" title="Start recording" tabindex="0"><i class="icon circle icon " aria-hidden="true" role="presentation"></i></button><span class="ui small header">Simulator</span></div></div><div id="serialPlaceholder" class="ui segment"><div class="ui bottom left attached no-select label seriallabel">Values will be logged when the simulator sends data</div></div><div id="serialCharts" class="noconsole nochart"></div><div id="serialConsole" class="noconsole nochart"></div><div id="serialCsv"></div><button class="ui button   " id="serialCsvViewLatest" tabindex="0">View latest row...</button></div></div><div class="full-abs" id="assetEditor" style="display: none;"><div class="asset-editor-outer"><div class="asset-editor-sidebar"><div class="common-list asset-editor-sidebar-info"><div class="common-list-item"><div>Asset Preview</div></div><div class="common-list-item"><div class="asset-editor-sidebar-preview"></div></div><div class="common-list-item"><div class="asset-editor-sidebar-name">No asset selected</div></div></div><div class="common-list asset-editor-sidebar-controls"><div class="common-list-item"></div><div class="common-list-item"></div><div class="common-list-item"></div><div class="common-list-item"></div><div class="common-list-item"><button class="common-button teal asset-palette-button" title="Open the color palette" role="button" tabindex="0" aria-label="Open the color palette"><span class="common-button-flex"><i class="fas fa-palette" aria-hidden="true"></i><span class="common-button-label">Colors</span></span></button></div></div><textarea class="asset-editor-sidebar-copy"></textarea></div><div class="asset-editor-gallery"><div class="asset-editor-topbar"><div class="asset-editor-gallery-tab selected" role="navigation">My Assets</div><div class="asset-editor-gallery-tab " role="navigation">Gallery</div></div><div class="asset-editor-card-list "><div><button class="common-button create-new inverted" title="Create a new asset" role="button" tabindex="0" aria-label="Create a new asset"><span class="common-button-flex"><i class="icon huge add circle" aria-hidden="true"></i><span class="common-button-label"></span></span></button></div></div><div class="asset-editor-card-list hidden"><div></div></div></div></div></div><div class="full-abs" id="monacoEditor" style="display: none;"><div id="monacoEditorArea" class="monacoEditorArea " style="direction: ltr;"><div id="monacoEditorRightArea" class="monacoEditorRightArea"><div id="monacoEditorInner"><div id="monacoFlyoutWidget" class="monacoFlyout" style="display: none;"><div id="monacoFlyoutWrapper" role="list"><div class="monacoFlyoutLabel monacoFlyoutHeading"><span class="monacoFlyoutHeadingIcon blocklyTreeIcon blocklyTreeIconDefault" role="presentation" style="color: rgb(109, 91, 165);"></span><div class="monacoFlyoutLabelText">undefined</div></div></div></div></div><div class="errorList errorListSummary " hidden=""><div class="errorListHeader" role="button" aria-label="Expand error list" tabindex="0"><h4>Problems</h4><div class="ui red circular label countBubble">0</div><div class="toggleButton"><i class="icon chevron up " aria-hidden="true" role="presentation"></i></div></div></div></div></div></div></div><div id="editortools" class="ui" role="region" aria-label="Editor toolbar"><div id="downloadArea" role="menu" class="ui column items"><div class="ui item portrait hide"><button class="ui button icon icon-and-text  primary download-button left attached large fluid " role="menuitem" title="Download your code to the Arcade" tabindex="0"><i class="icon xicon file-download icon-and-text  " aria-hidden="true" role="presentation"></i><span class="ui text">Download</span></button><div role="menuitem" title="Download options" aria-haspopup="false" class="ui dropdown icon large right attached editortools-btn hw-button button menuAbove" data-tooltip="Click to select hardware" tabindex="0"><i class="icon ellipsis horizontal large " aria-hidden="true" role="presentation"></i><div role="menu" aria-label="Dropdown menu Download options" aria-hidden="false" class="menu"><div class="ui item link    " role="menuitem" aria-label="Choose hardware" title="Choose hardware" tabindex="-1"><i class="icon microchip icon-and-text  " aria-hidden="true" role="presentation"></i><span class="ui text">Choose hardware</span></div><div class="ui item link    " role="menuitem" aria-label="Download as file" title="Download as file" tabindex="-1"><i class="icon xicon file-download icon-and-text  " aria-hidden="true" role="presentation"></i><span class="ui text">Download as file</span></div></div></div></div><div class="ui portrait only"><button class="ui button icon  primary download-button left attached download-button-full " role="menuitem" title="Download your code to the Arcade" tabindex="0"><i class="icon xicon file-download " aria-hidden="true" role="presentation"></i></button><div role="menuitem" title="Download options" aria-haspopup="false" class="ui dropdown icon  right attached editortools-btn hw-button button menuAbove menuRight" data-tooltip="Click to select hardware" tabindex="0"><i class="icon ellipsis horizontal  " aria-hidden="true" role="presentation"></i><div role="menu" aria-label="Dropdown menu Download options" aria-hidden="false" class="menu"><div class="ui item link    " role="menuitem" aria-label="Hardware" title="Hardware" tabindex="-1"><i class="icon microchip icon-and-text  " aria-hidden="true" role="presentation"></i><span class="ui text">Hardware</span></div><div class="ui item link    " role="menuitem" aria-label="Download" title="Download" tabindex="-1"><i class="icon xicon file-download icon-and-text  " aria-hidden="true" role="presentation"></i><span class="ui text">Download</span></div></div></div></div></div><div id="projectNameArea" role="menu" class="ui column items"><div class="ui right  input projectname-input projectname-computer"><label for="fileNameInput2" class="accessible-hidden phone hide">Type a name for your project</label><input class="mobile hide ui" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" id="fileNameInput2" type="text" aria-labelledby="fileNameInput2" placeholder="Pick a name..." value="InkySanya.github.io"><div role="button" class="ui icon button editortools-btn editortools-github-btn
             " title="inkysanyagithubio: local changes are synchronized with GitHub." tabindex="0"><i class="github icon"></i><span class="ui mobile hide"></span><span class="ui long mobile hide"><i class="check icon"></i></span></div><div class="cloudstatusarea"><div class="ui item link   ui tiny cloudicon xicon cloud-saved-b " aria-label="Project saved to cloud" title="Project saved to cloud" tabindex="-1"></div></div></div></div><div id="editorToolbarArea" role="menu" class="ui column items"><div class="ui icon buttons"><button class="ui button icon  editortools-btn undo-editortools-btn " role="menuitem" title="Undo" tabindex="0" aria-label="Undo, "><i class="icon xicon undo " aria-hidden="true" role="presentation"></i></button><button class="ui button icon  editortools-btn redo-editortools-btn disabled" role="menuitem" title="Redo" tabindex="0" aria-label="Redo, Disabled"><i class="icon xicon redo " aria-hidden="true" role="presentation"></i></button></div><div class="ui icon buttons mobile hide"><button class="ui button icon  editortools-btn zoomout-editortools-btn" role="menuitem" title="Zoom Out" tabindex="0"><i class="icon minus circle " aria-hidden="true" role="presentation"></i></button><button class="ui button icon  editortools-btn zoomin-editortools-btn" role="menuitem" title="Zoom In" tabindex="0"><i class="icon plus circle " aria-hidden="true" role="presentation"></i></button></div></div></div><div></div><div></div><div></div></div><div><div></div></div></div>
